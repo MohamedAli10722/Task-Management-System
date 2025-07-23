@@ -5,26 +5,16 @@ namespace Area.Models
 {
     public class Evaluation
     {
-
         [Key]
         public string EvaluationID { get; set; }
-
-        [ForeignKey("Project")]
-        public string ProjectID { get; set; }
-
-        [ForeignKey("Task")]
-        public string TaskID { get; set; }
-
-        [ForeignKey("Person")]
-        public string PersonId { get; set; }
-
-        public string Title { get; set; }
-
-        public string Discription { get; set; }
-
-
-        public Project Project { get; set; }
-        public Task Task { get; set; }
-        public Person Person { get; set; }
+        public string CheckListScore { get; set; }      
+        public string DeadLineScore { get; set; }    
+        public string Score { get; set; }            
+        public bool SubmittedOnTime { get; set; }
+        public DateTime CreatedAT { get; set; } = DateTime.Now;
+        public string TaskEvaluationID { get; set; }
+        public Task TaskEvaluation { get; set; }
+        public string ProjectEvaluationID { get; set; }
+        public Project ProjectEvaluation { get; set; }
     }
 }

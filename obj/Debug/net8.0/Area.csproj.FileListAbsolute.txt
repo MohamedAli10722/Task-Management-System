@@ -341,3 +341,6 @@ C:\Users\DELL\Desktop\UX-WEB\New folder\Area\Area\Area\obj\Debug\net8.0\refint\A
 C:\Users\DELL\Desktop\UX-WEB\New folder\Area\Area\Area\obj\Debug\net8.0\Area.pdb
 C:\Users\DELL\Desktop\UX-WEB\New folder\Area\Area\Area\obj\Debug\net8.0\Area.genruntimeconfig.cache
 C:\Users\DELL\Desktop\UX-WEB\New folder\Area\Area\Area\obj\Debug\net8.0\ref\Area.dll
+C:\Users\DELL\Desktop\UX-WEB\New folder\Area\Area\Area\obj\Debug\net8.0\Area.sourcelink.json
+C:\Users\DELL\Desktop\UX-WEB\New folder\Area\Area\Area\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
+C:\Users\DELL\Desktop\UX-WEB\New folder\Area\Area\Area\bin\Debug\net8.0\BCrypt.Net-Next.dll

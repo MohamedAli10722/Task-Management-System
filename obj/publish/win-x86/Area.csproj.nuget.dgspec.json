@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\DELL\\Desktop\\UX-WEB\\New folder\\Area\\Area\\Area\\Area.csproj": {}
+    "C:\\Users\\DELL\\Desktop\\data taskarea\\Area 2\\Area\\Area\\Area.csproj": {}
   },
   "projects": {
-    "C:\\Users\\DELL\\Desktop\\UX-WEB\\New folder\\Area\\Area\\Area\\Area.csproj": {
+    "C:\\Users\\DELL\\Desktop\\data taskarea\\Area 2\\Area\\Area\\Area.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\DELL\\Desktop\\UX-WEB\\New folder\\Area\\Area\\Area\\Area.csproj",
+        "projectUniqueName": "C:\\Users\\DELL\\Desktop\\data taskarea\\Area 2\\Area\\Area\\Area.csproj",
         "projectName": "Area",
-        "projectPath": "C:\\Users\\DELL\\Desktop\\UX-WEB\\New folder\\Area\\Area\\Area\\Area.csproj",
+        "projectPath": "C:\\Users\\DELL\\Desktop\\data taskarea\\Area 2\\Area\\Area\\Area.csproj",
         "packagesPath": "C:\\Users\\DELL\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\DELL\\Desktop\\UX-WEB\\New folder\\Area\\Area\\Area\\obj\\publish\\win-x86\\",
+        "outputPath": "C:\\Users\\DELL\\Desktop\\data taskarea\\Area 2\\Area\\Area\\obj\\publish\\win-x86\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -22,15 +22,15 @@
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "net8.0"
+          "net9.0"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "net8.0": {
-            "targetAlias": "net8.0",
+          "net9.0": {
+            "targetAlias": "net9.0",
             "projectReferences": {}
           }
         },
@@ -44,12 +44,20 @@
           "auditLevel": "low",
           "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "9.0.100"
+        "SdkAnalysisLevel": "9.0.200"
       },
       "frameworks": {
-        "net8.0": {
-          "targetAlias": "net8.0",
+        "net9.0": {
+          "targetAlias": "net9.0",
           "dependencies": {
+            "BCrypt.Net-Next": {
+              "target": "Package",
+              "version": "[4.0.3, )"
+            },
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[9.0.2, )"
+            },
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
               "version": "[9.0.2, )"
@@ -60,9 +68,21 @@
               "target": "Package",
               "version": "[9.0.2, )"
             },
+            "Microsoft.SqlServer.DacFx.x64": {
+              "target": "Package",
+              "version": "[150.5282.3, )"
+            },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
               "version": "[6.6.2, )"
+            },
+            "Swashbuckle.AspNetCore.SwaggerGen": {
+              "target": "Package",
+              "version": "[7.3.1, )"
+            },
+            "Swashbuckle.AspNetCore.SwaggerUI": {
+              "target": "Package",
+              "version": "[7.3.1, )"
             }
           },
           "imports": [
@@ -78,20 +98,8 @@
           "warn": true,
           "downloadDependencies": [
             {
-              "name": "Microsoft.AspNetCore.App.Ref",
-              "version": "[8.0.13, 8.0.13]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Host.win-x86",
-              "version": "[8.0.13, 8.0.13]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Ref",
-              "version": "[8.0.13, 8.0.13]"
-            },
-            {
-              "name": "Microsoft.WindowsDesktop.App.Ref",
-              "version": "[8.0.13, 8.0.13]"
+              "name": "Microsoft.Net.Sdk.Compilers.Toolset",
+              "version": "[9.0.203, 9.0.203]"
             }
           ],
           "frameworkReferences": {
@@ -102,7 +110,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.103/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.203/PortableRuntimeIdentifierGraph.json"
         }
       },
       "runtimes": {
